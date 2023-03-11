@@ -12,3 +12,6 @@
 .byte $00				; NTSC TV Format
 .byte $00				; No PRG-RAM
 .byte $00,$00,$00,$00,$00		; unused padding to complete the 16 bytes of header
+
+.segment "CODE"
+	
